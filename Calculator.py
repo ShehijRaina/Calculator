@@ -141,7 +141,7 @@ button_divide = Button(window, text = "÷", command = divide, width = 5, font = 
 button_divide.grid(row = 4, column = 3)
 
 #############################
-"""Decimal BUTTON"""
+"""DECIMAL BUTTON"""
 #############################
 
 button_divide = Button(window, text = ".", command = lambda: add_to_screen("."), width = 5, font = (screen_font, 14))
