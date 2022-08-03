@@ -108,7 +108,7 @@ def equals():
 """NUMBER BUTTONS"""
 #############################
 
-button_1 = Button(window, text = "1", command = lambda: add_to_screen(1), height = 2, width = 5, font = ("", 20), bg = "#b6bcf0")
+button_1 = Button(window, text = "1", command = lambda: add_to_screen(1), height = 2, width = 5, font = ("", 20))
 button_1.grid(row = 1, column = 0)
 
 button_2 = Button(window, text = "2", command = lambda: add_to_screen(2), height = 2, width = 5, font = ("", 20))
